@@ -24,6 +24,17 @@
 					Ezen pici fájl miatt nem érdemes elindítani az IDE-t.
 					Alább egy fordítás és futtatás OpenJDK 11.0-val, mivel az Oracle volt olyan kedves hogy ... na ebbe most ne menjünk bele-
 				</para>
+				<figure>
+              <title>Java Manual Build</title>
+              <mediaobject>
+                  <imageobject>
+                      <imagedata fileref="l01/polargen/java/build0.png" scale="50" />
+                  </imageobject>
+                  <textobject>
+                      <phrase>Java Manual Build</phrase>
+                  </textobject>
+              </mediaobject>
+        </figure>
 				<para>
         	A Cpp esetén egy header-ben definiáltuk az osztályt.
         </para>
