@@ -1,0 +1,24 @@
+<authorgroup xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="hu">
+    <author>
+        <personname>
+            <surname>Dude</surname>
+            <firstname>Dude</firstname>        
+        </personname>    
+        <affiliation>
+            <shortaffil>dude</shortaffil>
+            <jobtitle>dude</jobtitle>
+            <orgname>Bigger, Longer, Uncut</orgname>
+            <orgdiv>Human Shield Division</orgdiv>
+            <address>
+                <email>aprettydecentaddress@gmail.com</email>
+            </address>
+        </affiliation>
+        <address>
+            <street>Decent Street</street>
+            <city>Pretty Ville</city>
+            <postcode>42</postcode>
+            <country>Somewhere</country>
+            <email>aprettydecentaddress@gmail.com</email>
+        </address>
+    </author>   
+</authorgroup>

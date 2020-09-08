@@ -1,0 +1,53 @@
+<info xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="hu">
+
+    <xi:include href="prog2-textbook-title.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-title.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>               
+
+    <xi:include href="prog2-textbook-subtitle.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-subtitle.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>               
+
+    <xi:include href="prog2-textbook-titleabbrev.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-titleabbrev.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>               
+
+    <xi:include href="prog2-textbook-authors.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-authors.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>               
+
+    <xi:include href="prog2-textbook-edt.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-edt.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>               
+
+    <pubdate>2020</pubdate>
+    
+    <xi:include href="prog2-textbook-revhistory.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-revhistory file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>               
+                               
+</info>   

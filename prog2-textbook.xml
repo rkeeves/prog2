@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook" 
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xi="http://www.w3.org/2001/XInclude" 
+      version="5.1" xml:lang="hu">    
+    
+    <xi:include href="prog2-textbook-info.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-info.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>     
+        
+    <xi:include href="prog2-textbook-motto.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-motto.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>     
+    
+    <xi:include href="prog2-textbook-pre.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-pre.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include> 
+
+		<xi:include href="prog2-textbook-intro.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-intro.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include> 
+  
+    <xi:include href="prog2-textbook-feladatok.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-motto.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>                                                              
+                                                      
+    <xi:include href="prog2-textbook-bib.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-bib.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>     
+     
+            <xi:include href="prog2-textbook-ack.xml">
+            <xi:fallback>
+                <para>
+                    <emphasis>XInclude: prog2-textbook-ack.xml file not found</emphasis>
+                </para>
+            </xi:fallback>
+        </xi:include>    
+
+</book>

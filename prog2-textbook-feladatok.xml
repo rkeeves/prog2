@@ -1,0 +1,29 @@
+<part xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="hu">
+    <title>Tematikus feladatok</title>
+    <partintro>
+        <para> 
+        </para>
+<tip>
+              <title>Bátf41 Haxor Stream</title>
+              <para>
+                  Erősen javaslom ezen jegyzőkönyv olvasása helyett 
+                  <link xlink:href="https://www.twitch.tv/nbatfai">Bátfai Tanár Úr csatornáját</link>. <link xlink:href="https://www.youtube.com/c/nbatfai">Perma YT archive</link>.
+              </para>            
+            </tip>    
+        
+    </partintro>
+    <xi:include href="prog2-textbook-feladatok-l00.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-l00.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include> 
+    <xi:include href="prog2-textbook-feladatok-l01.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: prog2-textbook-l01.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>     
+</part>  

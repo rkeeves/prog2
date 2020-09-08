@@ -1,0 +1,16 @@
+<preface xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="hu">
+    <title>Előszó</title>
+    <para xml:id="bhax-textbook-pre.Eloszo">
+        ...
+    </para>
+        
+    <section>
+		<title>Használat</title>
+			<para>
+			Használj Linuxot. Én múlt félévben Cygwinnel és Mingw-vel trükköztem. Meg lehet csinálni de kétszer annyi idő lesz.
+			</para>
+			<para>
+			Főleg Ubuntun és Debian-on könnyen felmegy apt-tal a dblatex. Amit ne felejts el, az a hungarian language pack. texlive-lang-hungarian vagy texlive-lang-european.
+			</para>
+		</section>
+</preface>    
