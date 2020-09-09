@@ -106,8 +106,36 @@
         	(erre  utal  a  feladat  neve,  hogy  Java-ban  minden  referencia,  nincs  választás,  hogy  mondjuk  egy attribútum pointer, referencia vagy tagként tartalmazott legyen).Miután már áttettük Java nyelvre, tegyük be egy Java Servletbe és a böngészőből GET-es kéréssel (például a böngésző címsorából) kapja meg azt a mintát, amelynek kiszámolja az LZW binfáját!
         </para>
         <para>
-            Tanulságok, tapasztalatok, magyarázat...
+         Long story short, itt a Java verzió. Egyszerűen átemeltük c++-ból emiatt nagyon csúnya.
+         A Java és a C++ nagyon komolyan eltér egymástól ennek hatásai meg is látszódnak.
         </para>
+        <para>
+         C++ esetben ha olyan típust használunk mely esetén nem értelmezett a less than, és az equality operátorok akkor fordítási hiba lesz.
+         Java esetében ezt például a Comparable interface öröklésével kényszeríthetjük ki, mint pl.
+        </para>
+        <para>
+         Igazi nagy különbség hogy míg C++ esetében a rule of five miatt copy, move ctor/assignment-re szükség volt, addig Java esetén elég egy deep copy.
+         </para>
+         <para>
+         Ami számomra problémát okozott, az az, hogy a T paraméternek Cloneable-nek kellene lennie. Eddig ok is, de nem hívhatjuk a java.lang.Object.clone-t, mert az alapvetően protected visibility-vel rendelkezik. So good luck using that out of the box :D (I'd personally consider accepting a functor which is responsible for the copying of any instance of T, but that might be wrong.)
+         </para>
+        <programlisting language="c" linenumbering="numbered">
+					<textobject><textdata fileref="l01/lzw/BaseTree.java"/></textobject>
+				</programlisting> 
+        <para>
+         Compile + execution példa alább.
+        </para>
+        <figure>
+              <title>Lzw Java</title>
+              <mediaobject>
+                  <imageobject>
+                      <imagedata fileref="l01/lzw/build0.png" scale="50" />
+                  </imageobject>
+                  <textobject>
+                      <phrase>Lzw Java</phrase>
+                  </textobject>
+              </mediaobject>
+        </figure>
     </section>
        
 		<section>
